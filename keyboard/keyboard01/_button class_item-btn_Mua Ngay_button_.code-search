@@ -1,0 +1,99 @@
+# Query: <button class="item-btn">Mua Ngay</button>
+
+32 results - 32 files
+
+chair\chair01\item1.html:
+  64:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+chair\chair02\item2.html:
+  64:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+chair\chair03\item3.html:
+  64:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+chair\chair04\item4.html:
+  64:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+chair\chair05\item5.html:
+  64:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+chair\chair06\item6.html:
+  58:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+chair\chair07\item7.html:
+  58:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+chair\chair08\item8.html:
+  58:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+keyboard\keyboard01\01.html:
+  63:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+keyboard\keyboard02\02.html:
+  63:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+keyboard\keyboard03\03.html:
+  63:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+keyboard\keyboard04\04.html:
+  63:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+keyboard\keyboard05\05.html:
+  57:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+keyboard\keyboard06\06.html:
+  57:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+keyboard\keyboard07\07.html:
+  57:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+keyboard\keyboard08\08.html:
+  57:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+web_gamechair\chair\chair01\item1.html:
+  64:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+web_gamechair\chair\chair02\item2.html:
+  64:             <buttonid="relative-btn" id="relative-btn"class="item-btn">Mua Ngay</buttonid=>
+
+web_gamechair\chair\chair03\item3.html:
+  64:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+web_gamechair\chair\chair04\item4.html:
+  64:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+web_gamechair\chair\chair05\item5.html:
+  64:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+web_gamechair\chair\chair06\item6.html:
+  58:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+web_gamechair\chair\chair07\item7.html:
+  58:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+web_gamechair\chair\chair08\item8.html:
+  58:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+web_gamechair\keyboard\keyboard01\01.html:
+  63:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+web_gamechair\keyboard\keyboard02\02.html:
+  63:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+web_gamechair\keyboard\keyboard03\03.html:
+  63:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+web_gamechair\keyboard\keyboard04\04.html:
+  63:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+web_gamechair\keyboard\keyboard05\05.html:
+  57:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+web_gamechair\keyboard\keyboard06\06.html:
+  57:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+web_gamechair\keyboard\keyboard07\07.html:
+  57:             <button id="relative-btn"class="item-btn">Mua Ngay</button>
+
+web_gamechair\keyboard\keyboard08\08.html:
+  57:             <button id="relative-btn"class="item-btn">Mua Ngay</button>

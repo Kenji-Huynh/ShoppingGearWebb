@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameChair Pro | Gaming Chairs</title>
+    <link rel="stylesheet" href="home.css" />
+    <script
+      src="https://kit.fontawesome.com/49e41b5211.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="container nav-container">
+        <a href="#" class="logo">Game<span>Chair</span> Pro</a>
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li class="has-dropdown">
+            <a href="#">Gaming Setup</a>
+            <ul class="dropdown">
+              <li><a href="chair/chair.html">Chairs</a></li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="#">Gaming Gear</a>
+            <ul class="dropdown">
+              <li><a href="keyboard/keyboard.html">Keyboards</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="search-btn-item"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+          <li>
+            <a href="cart.html" class="cart-icon">
+              <i class="fa-solid fa-shopping-cart"></i>
+              <span id="cart-count-badge">0</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div class="hero-content">
+          <img src="/img/banner-home.jpg" style="width: 1550px; height: 390px;" alt="">
+        </div>
+      </div>
+    
+      <header class="header">
+        <div class="header-content">
+          <h1>CHOOSE YOUR GAMING GEAR</h1>
+          <p>FOR NEXT GENERATION GAMERS</p>
+        </div>
+      </header>
+    
+      <!-- Promotional Grid Section -->
+      <section class="product-section container" >
+        <h2 class="section-title">Explore Gaming Categories</h2>
+        <div class="products-grid">
+          <!-- Gaming Chair -->
+          <div class="product-card">
+            <img src="/chair/img/chair01.jpg" alt="Gaming Chairs" class="product-img">
+            <div class="product-info">
+              <h3 class="product-title">Gaming Chairs</h3>
+              <a href="/chair/chair.html" class="btn">Shop Now</a>
+            </div>
+          </div>
+    
+          <!-- Keyboard Gaming -->
+          <div class="product-card">
+            <img src="/keyboard/img/key01.jpg" alt="Gaming Keyboards" class="product-img">
+            <div class="product-info">
+              <h3 class="product-title">Gaming  Keyboards </h3>
+              <a href="/keyboard/keyboard.html" class="btn">Shop Now</a>
+            </div>
+          </div>
+      </section>
+    
+
+<section class="product-section container">
+  <h2 class="section-title">Best Sellers</h2>
+
+  <div class="filter-row">
+    <div class="view-options">
+      <span class="tab active" data-tab="chair">Chair</span>
+      <span class="tab" data-tab="keyboard">Keyboard</span>
+    </div>
+  </div>
+  
+  <!-- Tab Content -->
+  <div class="tab-content" id="monitor" style="display: none;">
+    <div class="products-grid">
+      <!-- Monitor 1 -->
+      <div class="product-card">
+        <span class="product-badge">BESTSELLER</span>
+        <img src="monitor1.jpg" alt="Gaming Monitor" class="product-img">
+        <div class="product-info">
+          <h3 class="product-title">Pro Gaming Monitor 27" 240Hz</h3>
+          <p class="product-price">1,299.00 AED</p>
+          <div class="product-actions">
+            <button class="product-btn">Add to Cart</button>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Monitor 2 -->
+      <div class="product-card">
+        <img src="monitor2.jpg" alt="Curved Monitor" class="product-img">
+        <div class="product-info">
+          <h3 class="product-title">UltraWide Curved Monitor 34"</h3>
+          <p class="product-price">1,899.00 AED</p>
+          <div class="product-actions">
+            <button class="product-btn">Add to Cart</button>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Monitor 3 -->
+      <div class="product-card">
+        <span class="product-badge">NEW</span>
+        <img src="monitor3.jpg" alt="4K Monitor" class="product-img">
+        <div class="product-info">
+          <h3 class="product-title">4K HDR Gaming Monitor 32"</h3>
+          <p class="product-price">2,499.00 AED</p>
+          <div class="product-actions">
+            <button class="product-btn">Add to Cart</button>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Monitor 4 -->
+      <div class="product-card">
+        <img src="monitor4.jpg" alt="Budget Monitor" class="product-img">
+        <div class="product-info">
+          <h3 class="product-title">Basic Gaming Monitor 24"</h3>
+          <p class="product-price">599.00 AED</p>
+          <div class="product-actions">
+            <button class="product-btn">Add to Cart</button>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="tab-content" id="chair" style="display: block;">
+    <div class="products-grid">
+      <!-- Chair 1 -->
+      <div class="product-card">
+        <span class="product-badge">BESTSELLER</span>
+        <img src="/chair/img/chair01.jpg" alt="Gaming Chair" class="product-img">
+        <div class="product-info">
+          <h3 class="product-title">Ghế WGC225</h3>
+          <p class="product-price">1.000.000 VND</p>
+          <div class="product-actions">
+            <button class="product-btn" onclick="addToCart({
+              id: 'chair01',
+              name: 'Ghế WGC225',
+              price: 1000000,
+              category: 'Chair',
+              image: '/chair/img/chair01.jpg'
+            })">Thêm giỏ hàng</button>
+            <a href="/chair/chair01/item1.html" class="btn">Xem</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Chair 2 -->
+      <div class="product-card">
+        <span class="product-badge">SALE</span>
+        <img src="/chair/img/chair02.jpg" alt="Racing Chair" class="product-img">
+        <div class="product-info">
+          <h3 class="product-title">Ghế WGC203</h3>
+          <p class="product-price">2.000.000 VND</p>
+          <div class="product-actions">
+            <button class="product-btn" onclick="addToCart({
+              id: 'chair02',
+              name: 'Ghế WGC203',
+              price: 2000000,
+              category: 'Chair',
+              image: '/chair/img/chair02.jpg'
+            })">Thêm giỏ hàng</button>
+            <a href="/chair/chair02/item2.html" class="btn">Xem</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Chair 3 -->
+      <div class="product-card">
+        <img src="/chair/img/chair03.jpg" alt="Ergonomic Chair" class="product-img">
+        <div class="product-info">
+          <h3 class="product-title">Ghế Cougar Armor</h3>
+          <p class="product-price">2.000.000 VND</p>
+          <div class="product-actions">
+            <button class="product-btn" onclick="addToCart({
+              id: 'chair03',
+              name: 'Ghế Cougar Armor',
+              price: 2000000,
+              category: 'Chair',
+              image: '/chair/img/chair03.jpg'
+            })">Thêm giỏ hàng</button>
+            <a href="/chair/chair03/item3.html" class="btn">Xem</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Chair 4 -->
+      <div class="product-card">
+        <span class="product-badge">NEW</span>
+        <img src="/chair/img/chair04.jpg" alt="Premium Chair" class="product-img">
+        <div class="product-info">
+          <h3 class="product-title">Ghế Gladiator GB001</h3>
+          <p class="product-price">2.000.000 VND</p>
+          <div class="product-actions">
+            <button class="product-btn" onclick="addToCart({
+              id: 'chair04',
+              name: 'Ghế WGCGladiator GB001',
+              price: 2000000,
+              category: 'Chair',
+              image: '/chair/img/chair04.jpg'
+            })">Thêm giỏ hàng</button>
+            <a href="/chair/chair04/item4.html" class="btn">Xem</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="tab-content" id="keyboard" style="display: none;">
+    <div class="products-grid">
+      <!-- Keyboard 1 -->
+      <div class="product-card">
+        <span class="product-badge">BESTSELLER</span>
+        <img src="/keyboard/img/key01.jpg" alt="Mechanical Keyboard" class="product-img">
+        <div class="product-info">
+          <h3 class="product-title">Bàn phím cơ Aula F75</h3>
+          <p class="product-price">1.000.000 VND</p>
+          <div class="product-actions">
+            <button class="product-btn">Thêm giỏ hàng</button>
+            <a href="/keyboard/keyboard01/01.html" class="btn">Xem</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Keyboard 2 -->
+      <div class="product-card">
+        <img src="/keyboard/img/key02.jpg" alt="RGB Keyboard" class="product-img">
+        <div class="product-info">
+          <h3 class="product-title">Bàn phím cơ TUF</h3>
+          <p class="product-price">650.000 VND</p>
+          <div class="product-actions">
+            <button class="product-btn">Thêm giỏ hàng</button>
+            <a href="/keyboard/keyboard02/02.html" class="btn">Xem</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Keyboard 3 -->
+      <div class="product-card">
+        <span class="product-badge">NEW</span>
+        <img src="/keyboard/img/key03.jpg" alt="Wireless Keyboard" class="product-img">
+        <div class="product-info">
+          <h3 class="product-title">Bàn phím cơ Astronaut</h3>
+          <p class="product-price">1.000.000 VND</p>
+          <div class="product-actions">
+            <button class="product-btn">Thêm giỏ hàng</button>
+            <a href="/keyboard/keyboard03/03.html" class="btn">Xem</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Keyboard 4 -->
+      <div class="product-card">
+        <img src="/keyboard/img/key04.jpg" alt="Budget Keyboard" class="product-img">
+        <div class="product-info">
+          <h3 class="product-title">Bàn phím cơ Rapid Trigger</h3>
+          <p class="product-price">750.000 VND</p>
+          <div class="product-actions">
+            <button class="product-btn">Thêm giỏ hàng</button>
+            <a href="/keyboard/keyboard04/04.html" class="btn">Xem</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="tab-content" id="mice" style="display: none;">
+    <div class="products-grid">
+      <!-- Mice 1 -->
+      <div class="product-card">
+        <span class="product-badge">BESTSELLER</span>
+        <img src="mouse1.jpg" alt="Gaming Mouse" class="product-img">
+        <div class="product-info">
+          <h3 class="product-title">Pro Gaming Mouse X5</h3>
+          <p class="product-price">199.00 AED</p>
+          <div class="product-actions">
+            <button class="product-btn">Add to Cart</button>
+            <a href="#" class="btn">Xem</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Mice 2 -->
+      <div class="product-card">
+        <span class="product-badge">NEW</span>
+        <img src="mouse2.jpg" alt="Wireless Mouse" class="product-img">
+        <div class="product-info">
+          <h3 class="product-title">Wireless Gaming Mouse</h3>
+          <p class="product-price">249.00 AED</p>
+          <div class="product-actions">
+            <button class="product-btn">Add to Cart</button>
+            <a href="#" class="btn">Xem</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Mice 3 -->
+      <div class="product-card">
+        <img src="mouse3.jpg" alt="RGB Mouse" class="product-img">
+        <div class="product-info">
+          <h3 class="product-title">RGB Gaming Mouse</h3>
+          <p class="product-price">149.00 AED</p>
+          <div class="product-actions">
+            <button class="product-btn">Add to Cart</button>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Mice 4 -->
+      <div class="product-card">
+        <img src="mouse4.jpg" alt="Budget Mouse" class="product-img">
+        <div class="product-info">
+          <h3 class="product-title">Basic Gaming Mouse</h3>
+          <p class="product-price">79.00 AED</p>
+          <div class="product-actions">
+            <button class="product-btn">Add to Cart</button>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+</section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3 class="footer-title">Get the best bundle offers</h3>
+            <p>Add latest deals right in your inbox!</p>
+            <form class="newsletter-form">
+              <input
+                type="email"
+                placeholder="Email"
+                class="newsletter-input"
+              />
+              <button type="submit" class="newsletter-btn">GO</button>
+            </form>
+          </div>
+
+          <div class="footer-column">
+            <h3 class="footer-title">Follow us</h3>
+            <p>Stay in touch</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/CellphoneSVietnam" target="_blank" class="fb-icon social-icon"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.tiktok.com/@cellphones.official" target="_blank" class="social-icon"
+                ><i class="tiktok-icon fa-brands fa-tiktok"></i></i
+              ></a>
+              <a href="https://www.youtube.com/@CellphoneSOfficial" target="_blank" class="social-icon"
+                ><i class="youtube-icon fa-brands fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <h3 class="footer-title">Company</h3>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Blogs</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3 class="footer-title">Support</h3>
+            <ul class="footer-links">
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>© 2025 GameChair Pro | All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="search.js" defer></script>
+    <script src="/cart.js"></script>
+<script>
+  function addProductToCart() {
+    const productData = {
+      id: "chair01", // ID duy nhất của sản phẩm
+      name: "Ghế WGC225",
+      price: 1000000,
+      category: "Chair",
+      image: "/chair/imgchair/chair01.jpg" // Đường dẫn hình ảnh
+    };
+    addToCart(productData);
+  }
+</script>
+  </body>
+</html>

@@ -191,7 +191,7 @@ header {
   color: var(--primary-red);
 }
 
-.search-close {
+search-close {
   margin-left: 10px;
 }
 
@@ -208,7 +208,8 @@ body.search-active .nav-list {
 }
 
 .hero {
-  background: url("/chair/img/banner-img.jpg") no-repeat center center;
+  background: url("/ShoppingGearWebb/img/banner-home.jpg") no-repeat center
+    center;
   background-size: cover;
   height: 50vh;
   position: relative;

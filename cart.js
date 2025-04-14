@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Xóa giỏ hàng sau khi đặt hàng thành công
       clearCart();
       // Chuyển về trang chủ
-      window.location.href = "/ShoppingGearWebb/index.html";
+      window.location.href = "/ShoppingGearWebb/index.php"; // Đổi từ .html sang .php
     });
   }
 

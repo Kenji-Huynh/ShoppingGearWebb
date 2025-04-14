@@ -1,10 +1,13 @@
+<?php
+// filepath: d:\ShoppingGearWebb\chair\chair05\item5.php
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GameChair Pro | Gaming Chairs</title>
-    <link rel="stylesheet" href="../chair05/item5.css" />
+    <title>Ghế WGC207 | GameChair Pro</title>
+    <link rel="stylesheet" href="item5.css" />
     <script
       src="https://kit.fontawesome.com/49e41b5211.js"
       crossorigin="anonymous"
@@ -13,32 +16,31 @@
   <body>
     <header>
       <div class="container nav-container">
-        <a href="#" class="logo">Game<span>Chair</span> Pro</a>
+        <a href="/ShoppingGearWebb/index.php" class="logo">Game<span>Chair</span> Pro</a>
         <ul class="nav-list">
-          <li><a href="/index.html">Home</a></li>
+          <li><a href="/ShoppingGearWebb/index.php">Home</a></li>
           <li class="has-dropdown">
             <a href="#">Gaming Setup</a>
             <ul class="dropdown">
-              <li><a href="/chair/chair.html">Chairs</a></li>
+              <li><a href="/ShoppingGearWebb/chair/chair.php">Chairs</a></li>
             </ul>
           </li>
           <li class="has-dropdown">
             <a href="#">Gaming Gear</a>
             <ul class="dropdown">
-              <li><a href="/keyboard/keyboard.html">Keyboards</a></li>
+              <li><a href="/ShoppingGearWebb/keyboard/keyboard.php">Keyboards</a></li>
             </ul>
           </li>
           <li>
             <a href="#" class="search-btn-item"><i class="fa-solid fa-magnifying-glass"></i></a>
           </li>
           <li>
-            <a href="/cart.html" class="cart-icon">
+            <a href="/ShoppingGearWebb/cart.php" class="cart-icon">
               <i class="fa-solid fa-shopping-cart"></i>
               <span id="cart-count-badge">0</span>
             </a>
           </li>
         </ul>
-        <!-- Search form will be inserted here by JavaScript -->
       </div>
     </header>
 
@@ -54,20 +56,27 @@
           <div class="item-rating">
             <span class="item-rate">4.2</span>
             <i class="item-icon fa-solid fa-star"></i>
-          
           </div>
           <div class="item-price-container">
-            <p class="item-price">2.0000.000 VND <span class="item-price-dis">2.989.000 VND</span></p>
+            <p class="item-price">2.000.000 VND <span class="item-price-dis">2.989.000 VND</span></p>
             <span class="discount-badge">-28%</span>
           </div>
           <div class="item-actions">
-            <button class="item-btn">Mua Ngay</button>
-            <button class="item-btn-secondary"><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ</button>
+            <button class="item-btn" onclick="addToCart({
+              id: 'chair05',
+              name: 'Ghế WGC207',
+              price: 2000000,
+              category: 'Chair',
+              image: '/ShoppingGearWebb/chair/img/chair05.jpg'
+            })">
+              <i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ
+            </button>
+            <button class="item-btn-secondary"><i class="fa-solid fa-cart-shopping"></i> Mua ngay</button>
           </div>
         </div>
       </section>
 
-
+      <!-- Product Details Section -->
       <div class="detail-wrapper">
         <div class="item-detail-container">
           <div class="detail-text-container">
@@ -91,39 +100,40 @@
           </div>
         </div>
 
+        <!-- Sản phẩm tương tự -->
         <div class="item-relative-container">
           <h2 class="relative-header">Sản phẩm tương tự</h2>
           <div class="relative-grid">
             <div class="relative-item">
-              <img src="../imgchair/chair06.jpg" alt="item" class="relative-img" />
+              <img src="/ShoppingGearWebb/chair/img/chair06.jpg" alt="item" class="relative-img" />
               <p class="relative-name">Ghế EGC231</p>
               <p class="relative-price">1.000.000 VND</p>
-              <a href="../chair06/item6.html">
-                <button id="relative-btn" class="item-btn">Mua Ngay</button>
+              <a href="/ShoppingGearWebb/chair/chair06/item6.php">
+                <button id="relative-btn" class="item-btn">Xem chi tiết</button>
               </a>
             </div>
             <div class="relative-item">
-              <img src="../imgchair/chair07.jpg" alt="item" class="relative-img" />
+              <img src="/ShoppingGearWebb/chair/img/chair07.jpg" alt="item" class="relative-img" />
               <p class="relative-name">Ghế TC100</p>
               <p class="relative-price">2.000.000 VND</p>
-              <a href="../chair07/item7.html">
-                <button id="relative-btn" class="item-btn">Mua Ngay</button>
+              <a href="/ShoppingGearWebb/chair/chair07/item7.php">
+                <button id="relative-btn" class="item-btn">Xem chi tiết</button>
               </a>
             </div>
             <div class="relative-item">
-              <img src="../imgchair/chair04.jpg" alt="item" class="relative-img" />
+              <img src="/ShoppingGearWebb/chair/img/chair04.jpg" alt="item" class="relative-img" />
               <p class="relative-name">Ghế Gladiator GB001</p>
               <p class="relative-price">2.000.000 VND</p>
-              <a href="../chair04/item4.html">
-                <button id="relative-btn" class="item-btn">Mua Ngay</button>
+              <a href="/ShoppingGearWebb/chair/chair04/item4.php">
+                <button id="relative-btn" class="item-btn">Xem chi tiết</button>
               </a>
             </div>
             <div class="relative-item">
-              <img src="../imgchair/chair08.jpg" alt="item" class="relative-img" />
-              <p class="relative-name">Ghế  AKARACING</p>
+              <img src="/ShoppingGearWebb/chair/img/chair08.jpg" alt="item" class="relative-img" />
+              <p class="relative-name">Ghế AKARACING</p>
               <p class="relative-price">3.000.000 VND</p>
-              <a href="../chair08/item8.html">
-                <button id="relative-btn" class="item-btn">Mua Ngay</button>
+              <a href="/ShoppingGearWebb/chair/chair08/item8.php">
+                <button id="relative-btn" class="item-btn">Xem chi tiết</button>
               </a>
             </div>
           </div>
@@ -152,15 +162,15 @@
             <h3 class="footer-title">Follow us</h3>
             <p>Stay in touch</p>
             <div class="social-icons">
-              <a href="https://www.facebook.com/CellphoneSVietnam" target="_blank" class="fb-icon social-icon"
-                ><i class="fa-brands fa-facebook"></i
-              ></a>
-              <a href="https://www.tiktok.com/@cellphones.official" target="_blank" class="social-icon"
-                ><i class="tiktok-icon fa-brands fa-tiktok"></i></i
-              ></a>
-              <a href="https://www.youtube.com/@CellphoneSOfficial" target="_blank" class="social-icon"
-                ><i class="youtube-icon fa-brands fa-youtube"></i
-              ></a>
+              <a href="https://www.facebook.com/CellphoneSVietnam" target="_blank" class="fb-icon social-icon">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="https://www.tiktok.com/@cellphones.official" target="_blank" class="social-icon">
+                <i class="tiktok-icon fa-brands fa-tiktok"></i>
+              </a>
+              <a href="https://www.youtube.com/@CellphoneSOfficial" target="_blank" class="social-icon">
+                <i class="youtube-icon fa-brands fa-youtube"></i>
+              </a>
             </div>
           </div>
 
@@ -186,7 +196,6 @@
         </div>
       </div>
     </footer>
-
 
     <script src="search.js" defer></script>
   </body>

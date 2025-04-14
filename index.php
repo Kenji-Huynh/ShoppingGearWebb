@@ -1,3 +1,7 @@
+<?php
+// filepath: d:\ShoppingGearWebb\index.php
+// Có thể thêm các tính năng PHP ở đây
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,24 +19,24 @@
       <div class="container nav-container">
         <a href="#" class="logo">Game<span>Chair</span> Pro</a>
         <ul class="nav-list">
-          <li><a href="#">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li class="has-dropdown">
             <a href="#">Gaming Setup</a>
             <ul class="dropdown">
-              <li><a href="chair/chair.html">Chairs</a></li>
+              <li><a href="chair/chair.php">Chairs</a></li>
             </ul>
           </li>
           <li class="has-dropdown">
             <a href="#">Gaming Gear</a>
             <ul class="dropdown">
-              <li><a href="keyboard/keyboard.html">Keyboards</a></li>
+              <li><a href="keyboard/keyboard.php">Keyboards</a></li>
             </ul>
           </li>
           <li>
             <a href="#" class="search-btn-item"><i class="fa-solid fa-magnifying-glass"></i></a>
           </li>
           <li>
-            <a href="/ShoppingGearWebb/cart.html" class="cart-icon">
+            <a href="/ShoppingGearWebb/cart.php" class="cart-icon">
               <i class="fa-solid fa-shopping-cart"></i>
               <span id="cart-count-badge">0</span>
             </a>
@@ -44,7 +48,7 @@
     <main>
       <div class="hero">
         <div class="hero-content">
-          <img src="/img/banner-home.jpg" style="width: 1550px; height: 390px;" alt="">
+          <img src="/ShoppingGearWebb/img/banner-home.jpg" style="width: 100%; height: auto; max-height: 390px;" alt="">
         </div>
       </div>
     
@@ -64,7 +68,7 @@
             <img src="/ShoppingGearWebb/chair/img/chair01.jpg" alt="Gaming Chairs" class="product-img">
             <div class="product-info">
               <h3 class="product-title">Gaming Chairs</h3>
-              <a href="/chair/chair.html" class="btn">Shop Now</a>
+              <a href="/ShoppingGearWebb/chair/chair.php" class="btn">Shop Now</a>
             </div>
           </div>
     
@@ -72,8 +76,8 @@
           <div class="product-card">
             <img src="/ShoppingGearWebb/keyboard/img/key01.jpg" alt="Gaming Keyboards" class="product-img">
             <div class="product-info">
-              <h3 class="product-title">Gaming  Keyboards </h3>
-              <a href="/keyboard/keyboard.html" class="btn">Shop Now</a>
+              <h3 class="product-title">Gaming Keyboards</h3>
+              <a href="/ShoppingGearWebb/keyboard/keyboard.php" class="btn">Shop Now</a>
             </div>
           </div>
       </section>
@@ -165,7 +169,7 @@
               category: 'Chair',
               image: '/ShoppingGearWebb/chair/img/chair01.jpg'
             })">Thêm giỏ hàng</button>
-            <a href="/ShoppingGearWebb/chair/chair01/item1.html" class="btn">Xem</a>
+            <a href="/ShoppingGearWebb/chair/chair01/item1.php" class="btn">Xem</a>
           </div>
         </div>
       </div>
@@ -185,7 +189,7 @@
               category: 'Chair',
               image: '/ShoppingGearWebb/chair/img/chair02.jpg'
             })">Thêm giỏ hàng</button>
-            <a href="/ShoppingGearWebb/chair/chair02/item2.html" class="btn">Xem</a>
+            <a href="/ShoppingGearWebb/chair/chair02/item2.php" class="btn">Xem</a>
           </div>
         </div>
       </div>
@@ -204,7 +208,7 @@
               category: 'Chair',
               image: '/ShoppingGearWebb/chair/img/chair03.jpg'
             })">Thêm giỏ hàng</button>
-            <a href="/ShoppingGearWebb/chair/chair03/item3.html" class="btn">Xem</a>
+            <a href="/ShoppingGearWebb/chair/chair03/item3.php" class="btn">Xem</a>
           </div>
         </div>
       </div>
@@ -224,7 +228,7 @@
               category: 'Chair',
               image: '/ShoppingGearWebb/chair/img/chair04.jpg'
             })">Thêm giỏ hàng</button>
-            <a href="/ShoppingGearWebb/chair/chair04/item4.html" class="btn">Xem</a>
+            <a href="/ShoppingGearWebb/chair/chair04/item4.php" class="btn">Xem</a>
           </div>
         </div>
       </div>
@@ -242,7 +246,7 @@
           <p class="product-price">1.000.000 VND</p>
           <div class="product-actions">
             <button class="product-btn">Thêm giỏ hàng</button>
-            <a href="/ShoppingGearWebb/keyboard/keyboard01/01.html" class="btn">Xem</a>
+            <a href="/ShoppingGearWebb/keyboard/keyboard01/01.php" class="btn">Xem</a>
           </div>
         </div>
       </div>
@@ -255,7 +259,7 @@
           <p class="product-price">650.000 VND</p>
           <div class="product-actions">
             <button class="product-btn">Thêm giỏ hàng</button>
-            <a href="/ShoppingGearWebb/keyboard/keyboard02/02.html" class="btn">Xem</a>
+            <a href="/ShoppingGearWebb/keyboard/keyboard02/02.php" class="btn">Xem</a>
           </div>
         </div>
       </div>
@@ -269,7 +273,7 @@
           <p class="product-price">1.000.000 VND</p>
           <div class="product-actions">
             <button class="product-btn">Thêm giỏ hàng</button>
-            <a href="/ShoppingGearWebb/keyboard/keyboard03/03.html" class="btn">Xem</a>
+            <a href="/ShoppingGearWebb/keyboard/keyboard03/03.php" class="btn">Xem</a>
           </div>
         </div>
       </div>
@@ -282,7 +286,7 @@
           <p class="product-price">750.000 VND</p>
           <div class="product-actions">
             <button class="product-btn">Thêm giỏ hàng</button>
-            <a href="/ShoppingGearWebb/keyboard/keyboard04/04.html" class="btn">Xem</a>
+            <a href="/ShoppingGearWebb/keyboard/keyboard04/04.php" class="btn">Xem</a>
           </div>
         </div>
       </div>

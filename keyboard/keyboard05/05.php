@@ -1,10 +1,13 @@
+<?php
+// filepath: d:\ShoppingGearWebb\keyboard\keyboard05\05.php
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GameChair Pro | Gaming Chairs</title>
-    <link rel="stylesheet" href="../keyboard03/03.css" />
+    <title>Bàn phím cơ AULA xanh đen | GameChair Pro</title>
+    <link rel="stylesheet" href="05.css" />
     <script
       src="https://kit.fontawesome.com/49e41b5211.js"
       crossorigin="anonymous"
@@ -13,32 +16,37 @@
   <body>
     <header>
       <div class="container nav-container">
-        <a href="#" class="logo">Game<span>Chair</span> Pro</a>
+        <a href="/ShoppingGearWebb/index.php" class="logo"
+          >Game<span>Chair</span> Pro</a
+        >
         <ul class="nav-list">
-          <li><a href="/index.html">Home</a></li>
+          <li><a href="/ShoppingGearWebb/index.php">Home</a></li>
           <li class="has-dropdown">
             <a href="#">Gaming Setup</a>
             <ul class="dropdown">
-              <li><a href="/chair/chair.html">Chairs</a></li>
+              <li><a href="/ShoppingGearWebb/chair/chair.php">Chairs</a></li>
             </ul>
           </li>
           <li class="has-dropdown">
             <a href="#">Gaming Gear</a>
             <ul class="dropdown">
-              <li><a href="/keyboard/keyboard.html">Keyboards</a></li>
+              <li>
+                <a href="/ShoppingGearWebb/keyboard/keyboard.php">Keyboards</a>
+              </li>
             </ul>
           </li>
           <li>
-            <a href="#" class="search-btn-item"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#" class="search-btn-item"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
           </li>
           <li>
-            <a href="/cart.html" class="cart-icon">
+            <a href="/ShoppingGearWebb/cart.php" class="cart-icon">
               <i class="fa-solid fa-shopping-cart"></i>
               <span id="cart-count-badge">0</span>
             </a>
           </li>
         </ul>
-        <!-- Search form will be inserted here by JavaScript -->
       </div>
     </header>
 
@@ -50,25 +58,33 @@
           <div class="item-img"></div>
         </div>
         <div class="item-info">
-          <h1 class="item-name">Bàn phím cơ Astronaut</h1>
+          <h1 class="item-name">Bàn phím cơ AULA xanh đen</h1>
           <div class="item-rating">
             <span class="item-rate">5</span>
             <i class="item-icon fa-solid fa-star"></i>
           </div>
           <div class="item-price-container">
-            <p class="item-price">1.000.000 VND <span class="item-price-dis">2.290.000 VND</span></p>
+            <p class="item-price">
+              1.000.000 VND <span class="item-price-dis">2.290.000 VND</span>
+            </p>
             <span class="discount-badge">-23%</span>
           </div>
           <div class="item-actions">
-   
-            <button class="item-btn-secondary" onclick="addToCart({
-              id: '01',
-              name: 'Bàn phím cơ Astronaut',
+            <button
+              class="item-btn"
+              onclick="addToCart({
+              id: 'keyboard05',
+              name: 'Bàn phím cơ AULA xanh đen',
               price: 1000000,
               category: 'Keyboard',
-              image: '/keyboard/img/key03.jpg'
-            })">
+              image: '/ShoppingGearWebb/keyboard/img/key05.jpg'
+            })"
+            >
               <i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ
+            </button>
+            <button class="item-btn-secondary">
+              <i class="fa-solid fa-cart-shopping"></i> Mua ngay
+            </button>
           </div>
         </div>
       </section>
@@ -81,10 +97,10 @@
             <h3 class="detail-desc">Mô tả sản phẩm</h3>
             <div class="detail-text">
               <ul>
-                <li>Bàn phím cơ gaming 3 mode Astronaut</li>
+                <li>Bàn phím cơ gaming 3 mode AULA xanh đen</li>
                 <li>Độ bền: 60 triệu lần bấm</li>
                 <li>Kết nối: 3 mode có dây Type-C & không dây 2.4G & BT</li>
-                <li>Màu sắc: Đen + hồng gradient</li>
+                <li>Màu sắc: Đen + xanh gradient</li>
                 <li>Keycap PBT Double-Shot</li>
                 <li>Đèn nền: LED RGB 16,8 triệu màu</li>
                 <li>Loại switch: Reaper switch</li>
@@ -97,40 +113,44 @@
           </div>
         </div>
 
-        <!-- Related Products Section -->
+        <!-- Sản phẩm tương tự -->
         <div class="item-relative-container">
           <h2 class="relative-header">Sản phẩm tương tự</h2>
           <div class="relative-grid">
             <div class="relative-item">
-              <img src="../keyboard01/img/key02.jpg" alt="item" class="relative-img" />
+              <img
+                src="/ShoppingGearWebb/keyboard/img/key02.jpg"
+                alt="item"
+                class="relative-img"
+              />
               <p class="relative-name">Bàn phím cơ TUF</p>
               <p class="relative-price">650.000 VND</p>
-              <a href="/keyboard/keyboard02/02.html">
-                <button id="relative-btn" class="item-btn">Mua Ngay</button>
+              <a href="/ShoppingGearWebb/keyboard/keyboard02/02.php">
+                <button id="relative-btn" class="item-btn">Xem chi tiết</button>
               </a>
             </div>
             <div class="relative-item">
-              <img src="../keyboard01/img/key03.jpg" alt="item" class="relative-img" />
+              <img
+                src="/ShoppingGearWebb/keyboard/img/key03.jpg"
+                alt="item"
+                class="relative-img"
+              />
               <p class="relative-name">Bàn phím cơ Astronaut</p>
               <p class="relative-price">1.000.000 VND</p>
-              <a href="/keyboard/keyboard03/03.html">
-                <button id="relative-btn" class="item-btn">Mua Ngay</button>
+              <a href="/ShoppingGearWebb/keyboard/keyboard03/03.php">
+                <button id="relative-btn" class="item-btn">Xem chi tiết</button>
               </a>
             </div>
             <div class="relative-item">
-              <img src="../keyboard01/img/key04.jpg" alt="item" class="relative-img" />
+              <img
+                src="/ShoppingGearWebb/keyboard/img/key04.jpg"
+                alt="item"
+                class="relative-img"
+              />
               <p class="relative-name">Bàn phím cơ Rapid Trigger</p>
               <p class="relative-price">750.000 VND</p>
-              <a href="/keyboard/keyboard04/04.html">
-                <button id="relative-btn" class="item-btn">Mua Ngay</button>
-              </a>
-            </div>
-            <div class="relative-item">
-              <img src="../keyboard01/img/key05.jpg" alt="item" class="relative-img" />
-              <p class="relative-name">Bàn phím cơ AULA xanh đen</p>
-              <p class="relative-price">1.000.000 VND</p>
-              <a href="/keyboard/keyboard05/05.html">
-                <button id="relative-btn" class="item-btn">Mua Ngay</button>
+              <a href="/ShoppingGearWebb/keyboard/keyboard04/04.php">
+                <button id="relative-btn" class="item-btn">Xem chi tiết</button>
               </a>
             </div>
           </div>
@@ -159,15 +179,27 @@
             <h3 class="footer-title">Follow us</h3>
             <p>Stay in touch</p>
             <div class="social-icons">
-              <a href="https://www.facebook.com/CellphoneSVietnam" target="_blank" class="fb-icon social-icon"
-                ><i class="fa-brands fa-facebook"></i
-              ></a>
-              <a href="https://www.tiktok.com/@cellphones.official" target="_blank" class="social-icon"
-                ><i class="tiktok-icon fa-brands fa-tiktok"></i></i
-              ></a>
-              <a href="https://www.youtube.com/@CellphoneSOfficial" target="_blank" class="social-icon"
-                ><i class="youtube-icon fa-brands fa-youtube"></i
-              ></a>
+              <a
+                href="https://www.facebook.com/CellphoneSVietnam"
+                target="_blank"
+                class="fb-icon social-icon"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a
+                href="https://www.tiktok.com/@cellphones.official"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="tiktok-icon fa-brands fa-tiktok"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/@CellphoneSOfficial"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="youtube-icon fa-brands fa-youtube"></i>
+              </a>
             </div>
           </div>
 
@@ -194,21 +226,7 @@
       </div>
     </footer>
 
-
-    <script src="search.js" defer></script>
-    <script src="/cart.js"></script>
-    <script>
-      function addProductToCart() {
-        const productData = {
-          id: "key01", // ID duy nhất của sản phẩm
-          name: "Bàn phím cơ Aula F75",
-          price: 1000000,
-          category: "Keyboard",
-          image: "/keyboard/img/key01.jpg" // Đường dẫn hình ảnh
-        };
-        
-        addToCart(productData);
-      }
-    </script>
+    <script src="/ShoppingGearWebb/search.js" defer></script>
+    <script src="/ShoppingGearWebb/cart.js"></script>
   </body>
 </html>

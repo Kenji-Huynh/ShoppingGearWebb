@@ -1,3 +1,7 @@
+<?php
+// filepath: d:\ShoppingGearWebb\cart.php
+// Có thể thêm các tính năng PHP ở đây
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,22 +17,20 @@
   <body>
     <header>
       <div class="container nav-container">
-        <a href="/ShoppingGearWebb/index.html" class="logo"
-          >Game<span>Chair</span> Pro</a
-        >
+        <a href="/ShoppingGearWebb/index.php" class="logo">Game<span>Chair</span> Pro</a>
         <ul class="nav-list">
-          <li><a href="/ShoppingGearWebb/index.html">Home</a></li>
+          <li><a href="/ShoppingGearWebb/index.php">Home</a></li>
           <li class="has-dropdown">
             <a href="#">Gaming Setup</a>
             <ul class="dropdown">
-              <li><a href="/ShoppingGearWebb/chair/chair.html">Chairs</a></li>
+              <li><a href="/ShoppingGearWebb/chair/chair.php">Chairs</a></li>
             </ul>
           </li>
           <li class="has-dropdown">
             <a href="#">Gaming Gear</a>
             <ul class="dropdown">
               <li>
-                <a href="/ShoppingGearWebb/keyboard/keyboard.html">Keyboards</a>
+                <a href="/ShoppingGearWebb/keyboard/keyboard.php">Keyboards</a>
               </li>
             </ul>
           </li>
@@ -38,7 +40,7 @@
             ></a>
           </li>
           <li>
-            <a href="/ShoppingGearWebb/cart.html" class="cart-icon">
+            <a href="/ShoppingGearWebb/cart.php" class="cart-icon">
               <i class="fa-solid fa-shopping-cart"></i>
               <span id="cart-count-badge">0</span>
             </a>
@@ -59,9 +61,7 @@
           <div id="empty-cart" class="empty-cart">
             <i class="fa-solid fa-shopping-cart"></i>
             <p>Giỏ hàng của bạn đang trống</p>
-            <a href="/ShoppingGearWebb/index.html" class="btn"
-              >Tiếp tục mua sắm</a
-            >
+            <a href="/ShoppingGearWebb/index.php" class="btn">Tiếp tục mua sắm</a>
           </div>
         </div>
 

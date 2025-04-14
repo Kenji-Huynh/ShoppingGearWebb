@@ -1,3 +1,6 @@
+<?php
+// filepath: d:\ShoppingGearWebb\chair\chair.php
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,24 +19,24 @@
       <div class="container nav-container">
         <a href="#" class="logo">Game<span>Chair</span> Pro</a>
         <ul class="nav-list">
-          <li><a href="/ShoppingGearWebb/index.html">Home</a></li>
+          <li><a href="/ShoppingGearWebb/index.php">Home</a></li>
           <li class="has-dropdown">
             <a href="#">Gaming Setup</a>
             <ul class="dropdown">
-              <li><a href="/ShoppingGearWebb/chair/chair.html">Chairs</a></li>
+              <li><a href="/ShoppingGearWebb/chair/chair.php">Chairs</a></li>
             </ul>
           </li>
           <li class="has-dropdown">
             <a href="#">Gaming Gear</a>
             <ul class="dropdown">
-              <li><a href="../keyboard/keyboard.html">Keyboards</a></li>
+              <li><a href="../keyboard/keyboard.php">Keyboards</a></li>
             </ul>
           </li>
           <li>
             <a href="#" class="search-btn-item"><i class="fa-solid fa-magnifying-glass"></i></a>
           </li>
           <li>
-            <a href="/cart.html" class="cart-icon">
+            <a href="/cart.php" class="cart-icon">
               <i class="fa-solid fa-shopping-cart"></i>
               <span id="cart-count-badge">0</span>
             </a>
@@ -84,7 +87,7 @@
                   <div class="product-info">
                     <h3 class="product-title">Ghế WGC225</h3>
                     <p class="product-price">1.000.000 VND</p>
-                    <form action="chair01/item1.html">
+                    <form action="chair01/item1.php">
                       <button class="product-btn">Xem sản phẩm</button>
                     </form>
                   </div>
@@ -99,7 +102,7 @@
                   <div class="product-info">
                     <h3 class="product-title">Ghế WGC203</h3>
                     <p class="product-price">2.000.000 VND</p>
-                    <form action="chair02/item2.html">
+                    <form action="chair02/item2.php">
                       <button class="product-btn">Xem sản phẩm</button>
                     </form>
                   </div>
@@ -114,7 +117,7 @@
                   <div class="product-info">
                     <h3 class="product-title">Ghế Cougar Armor</h3>
                     <p class="product-price">2.000.000 VND</p>
-                    <form action="chair03/item3.html">
+                    <form action="chair03/item3.php">
                       <button class="product-btn">Xem sản phẩm</button>
                     </form>
                   </div>
@@ -129,7 +132,7 @@
                   <div class="product-info">
                     <h3 class="product-title">Ghế Gladiator GB001</h3>
                     <p class="product-price">2.000.000 VND</p>
-                    <form action="chair04/item4.html">
+                    <form action="chair04/item4.php">
                       <button class="product-btn">Xem sản phẩm</button>
                     </form>
                   </div>
